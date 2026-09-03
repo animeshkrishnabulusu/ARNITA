@@ -1,0 +1,29 @@
+out/
+
+# Build outputs
+bin/
+obj/
+ 
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+*.DotSettings.user
+ 
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+ 
+# NuGet
+packages/
+*.nupkg
+ 
+# Local secrets / config overrides
+*.env
+appsettings.*.local.json
+secrets.json
+ 
+# OS
+.DS_Store
+Thumbs.db
